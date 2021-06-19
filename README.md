@@ -28,4 +28,4 @@ git clone
 cd credito_para_todxs
 
 #Abrir o ícone index da página
-gedit index.html 
+xdg-open index.html 
