@@ -90,7 +90,7 @@ $('#cadastrar').click(function(){
             let valorFinal = (taxasJuros(val,parcelas) * parcelas).toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });   
             $('#box_3').remove();
             $('#box_4').append('<h1>Crédito solicitado com sucesso!</h1>');
-            $('#box_4').append('<p>Valor solicitado: ' + valorFinal + ' *Disponível em conta em até 24horas.</p>');
+            $('#box_4').append('<p>Valor solicitado: ' + val + ' *Disponível em conta em até 24horas.</p>');
             $('#box_4').append('<h3>Obrigado por escolher o Serasa!</h3>');
         });
     }; 
